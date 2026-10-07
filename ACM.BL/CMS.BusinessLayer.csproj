@@ -44,6 +44,11 @@
     <Compile Include="Order.cs" />
     <Compile Include="OrderItem.cs" />
     <Compile Include="Product.cs" />
+    <Compile Include="Abstractions\ICustomerRepository.cs" />
+    <Compile Include="Abstractions\ICustomerService.cs" />
+    <Compile Include="Abstractions\IEntityService.cs" />
+    <Compile Include="Abstractions\IRepository.cs" />
+    <Compile Include="Abstractions\IValidator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
