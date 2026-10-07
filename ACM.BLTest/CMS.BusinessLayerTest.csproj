@@ -6,8 +6,8 @@
     <ProjectGuid>{587A828E-BBE7-40A9-8F1C-6E862B1B8A05}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ACM.BLTest</RootNamespace>
-    <AssemblyName>ACM.BLTest</AssemblyName>
+    <RootNamespace>CMS.BusinessLayerTest</RootNamespace>
+    <AssemblyName>CMS.BusinessLayerTest</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
