@@ -50,10 +50,17 @@
       </ItemGroup>
     </Otherwise>
   </Choose>
-  <ItemGroup>
-    <Compile Include="CustomerTest.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
+<ItemGroup>
+  <Compile Include="CustomerServiceTest.cs" />
+  <Compile Include="CustomerTest.cs" />
+  <Compile Include="CustomerValidatorTest.cs" />
+  <Compile Include="EntityServiceTest.cs" />
+  <Compile Include="OrderItemValidatorTest.cs" />
+  <Compile Include="OrderValidatorTest.cs" />
+  <Compile Include="ProductValidatorTest.cs" />
+  <Compile Include="Properties\AssemblyInfo.cs" />
+  <Compile Include="TestDoubles.cs" />
+</ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ACM.BL\CMS.BusinessLayer.csproj">
       <Project>{a0cb066c-7781-4744-8e15-a68b4223aa53}</Project>
