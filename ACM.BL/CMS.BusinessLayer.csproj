@@ -53,6 +53,8 @@
     <Compile Include="Validation\OrderItemValidator.cs" />
     <Compile Include="Validation\OrderValidator.cs" />
     <Compile Include="Validation\ProductValidator.cs" />
+    <Compile Include="Services\CustomerService.cs" />
+    <Compile Include="Services\EntityService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
