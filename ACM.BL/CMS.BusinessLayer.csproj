@@ -49,6 +49,10 @@
     <Compile Include="Abstractions\IEntityService.cs" />
     <Compile Include="Abstractions\IRepository.cs" />
     <Compile Include="Abstractions\IValidator.cs" />
+    <Compile Include="Validation\CustomerValidator.cs" />
+    <Compile Include="Validation\OrderItemValidator.cs" />
+    <Compile Include="Validation\OrderValidator.cs" />
+    <Compile Include="Validation\ProductValidator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
